@@ -3362,10 +3362,9 @@ input, select, textarea {
     display: block; /* Ensure it's visible by default */
 }
 
-/* Styles for screens smaller than or equal to 768px (mobile and tablet) */
-.mobile-only-content {
-    .laptop-only-content {
-        display: none; /* Hide the element on smaller screens */
+	/* Styles for screens smaller than or equal to 768px (mobile and tablet) */
+.mobile-only {
+        display: none;
     }
 }
 		
