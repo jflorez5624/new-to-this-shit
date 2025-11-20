@@ -3362,22 +3362,11 @@ input, select, textarea {
    			 	display: block; /* Ensure it's visible by default */
 			}
 
-		/* Styles for screens smaller than or equal to 768px (mobile and tablet) */
-			@media screen and (max-width: 480px) {
- 			 .mobile-only {
-    			display: none;
-  			}
-		}
+		/* Styles for screens smaller than 768px (laptops and desktops) */
+			.hide-inlaptop {
+				display: none;
+			}
 
-			@media screen and (min-width: 481px) {
-  				.lapto-only-content {
-    			display: none;
-  			}
-		}
-			.mobile-only {
-       			 display: block;
-    		}
-		
     }
 		}
 		
