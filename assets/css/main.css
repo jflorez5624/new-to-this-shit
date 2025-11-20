@@ -3358,14 +3358,20 @@ input, select, textarea {
 			}
 
 		/* Styles for screens larger than 768px (laptops and desktops) */
-.laptop-only-content {
-    display: block; /* Ensure it's visible by default */
-}
+			.laptop-only-content {
+   			 	display: block; /* Ensure it's visible by default */
+			}
 
-	/* Styles for screens smaller than or equal to 768px (mobile and tablet) */
-.mobile-only {
-        display: none;
+		/* Styles for screens smaller than or equal to 768px (mobile and tablet) */
+			.mobile-only {
+       			 display: none;
+    		}
+
+		@media only screen and (max-width: 768px) {
+        .mobile-only {
+            display: block; 
+        }
     }
-}
+		}
 		
 	}
