@@ -2574,7 +2574,7 @@ input, select, textarea {
 		}
 
 			#nav > ul > li {
-				position: Absolute;
+				position: Relative;
 				display: inline-block;
 				margin-left: 1em;
 			}
