@@ -3363,10 +3363,17 @@ input, select, textarea {
 			}
 
 		/* Styles for screens smaller than or equal to 768px (mobile and tablet) */
-			@media only screen and (max-width: 768px) {
-        	.mobile-only {
-            display: block; 
-        }
+			@media screen and (max-width: 480px) {
+ 			 .mobile-only {
+    			display: none;
+  			}
+		}
+
+			@media screen and (min-width: 481px) {
+  				.lapto-only-content {
+    			display: none;
+  			}
+		}
 			.mobile-only {
        			 display: block;
     		}
