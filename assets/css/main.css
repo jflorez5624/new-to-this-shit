@@ -196,19 +196,13 @@ input, select, textarea {
 			.container {
 				width: 1200px;
 			}
-			.mobile-only {
-				display:none;
-			}
+		
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			.container {
 				width: 960px;
-			}
-
-			.mobile-only {
-				display:none;
 			}
 			
 		}
@@ -217,10 +211,6 @@ input, select, textarea {
 
 			.container {
 				width: 95%;
-			}
-
-			.mobile-only {
-				display:none;
 			}
 
 		}
@@ -3385,20 +3375,6 @@ input, select, textarea {
 				text-align: left;
 			}
 
-		/* Styles for screens larger than 768px (laptops and desktops) */
-			@media screen and (max-width: 480px) {
- 			 .show-on-desktop {
-    			display: none;
-  			}
-		}
-
-			@media screen and (min-width: 481px) {
-  			.hide-on-desktop {
-    			display: none;
-  			}
-		}
-
-    }
 		}
 		
 	}
