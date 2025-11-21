@@ -2682,6 +2682,16 @@ input, select, textarea {
 		position: relative;
 	}
 
+	#banner {
+		background-image: url("images/sepia-logo1.png");
+		background-position: center center;
+		background-size: cover;
+		height: 15em;
+		text-align: center;
+		position: relative;
+		opacity: 0.75;
+	}
+
 		#banner header {
 			position: absolute;
 			bottom: 0;
