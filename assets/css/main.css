@@ -196,7 +196,9 @@ input, select, textarea {
 			.container {
 				width: 1200px;
 			}
-
+			.mobile-only {
+				display:none;
+			}
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -205,12 +207,20 @@ input, select, textarea {
 				width: 960px;
 			}
 
+			.mobile-only {
+				display:none;
+			}
+			
 		}
 
 		@media screen and (max-width: 980px) {
 
 			.container {
 				width: 95%;
+			}
+
+			.mobile-only {
+				display:none;
 			}
 
 		}
@@ -237,6 +247,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.mobile-only {
+				display:block;
+			}
+			
 		}
 
 /* Row */
