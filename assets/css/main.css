@@ -2683,7 +2683,7 @@ input, select, textarea {
 	}
 
 	#banner {
-		background-image: url("images/sepia-logo1.png");
+		background-image: src="images/sepia-logo1.png";
 		background-position: center center;
 		background-size: cover;
 		height: 15em;
